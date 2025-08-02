@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Figma Design</title>
-  </head>
-  <body style="margin:0;text-align:center;font-family:sans-serif">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuraMind AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>NeuraMind AI</h1>
+    <p>Unlock the power of Artificial Intelligence for everyone.</p>
+    <a href="#try" class="btn">Try Demo</a>
+  </header>
 
-    <h1>Figma Prototype Preview</h1>
+  <section class="features">
+    <div class="feature">
+      <h2>Natural Language Understanding</h2>
+      <p>Chat with AI that understands your intent and emotions.</p>
+    </div>
+    <div class="feature">
+      <h2>Vision Intelligence</h2>
+      <p>Image recognition, object detection, and smart tagging.</p>
+    </div>
+    <div class="feature">
+      <h2>Predictive Analytics</h2>
+      <p>Make smarter decisions using our AI-powered models.</p>
+    </div>
+  </section>
 
-    <img src="figma-preview.png" alt="Design preview" style="width:100%;max-width:800px;margin-bottom:20px;">
+  <section class="demo" id="try">
+    <h2>AI Demo Chat</h2>
+    <div id="chat-box">
+      <div class="msg ai">Hi! I'm NeuraMind. Ask me anything about AI!</div>
+    </div>
+    <input type="text" id="user-input" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+  </section>
 
-    <a 
-      href="https://www.figma.com/proto/frzQLbcovCOayEnd5JZJJN/Untitled?node-id=2-2&p=f&t=3zmooEyuoZw8ZUVw-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" 
-      target="_blank"
-      style="display:inline-block;padding:12px 20px;background-color:#0acf83;color:white;text-decoration:none;border-radius:6px;"
-    >
-      View Design in Figma
-    </a>
+  <footer>
+    <p>&copy; 2025 NeuraMind AI. All rights reserved.</p>
+  </footer>
 
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
